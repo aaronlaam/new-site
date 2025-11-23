@@ -1,0 +1,66 @@
+/* ConnectSmart Brand Variables */
+/* Voice AI Workflows & Automations by NetCarrier */
+
+:root {
+  /* Primary Colors */
+  --color-dark-navy: #0B1D2C;
+  --color-bright-green: #1CE28C;
+
+  /* Secondary Colors */
+  --color-teal: #1FA6A0;
+  --color-aqua: #46D6D2;
+  --color-sky-blue: #6EC6FF;
+  --color-digital-green: #24FFB5;
+  --color-slate-gray: #2F3E46;
+  --color-soft-white: #F7F9FA;
+
+  /* Typography - Headings */
+  --font-heading: 'Inter', Arial, Helvetica, sans-serif;
+  --font-heading-weight: 300;
+  --font-heading-tracking: 0.5px;
+  --color-heading: var(--color-dark-navy);
+
+  /* Typography - Subheadings */
+  --font-subheading: 'Inter', Arial, Helvetica, sans-serif;
+  --font-subheading-weight: 400;
+  --color-subheading: var(--color-teal);
+
+  /* Typography - Body */
+  --font-body: 'Lato', Arial, Helvetica, sans-serif;
+  --font-body-weight: 400;
+  --font-body-size: 15px;
+  --color-body-light: var(--color-soft-white);
+  --color-body-dark: var(--color-slate-gray);
+
+  /* Layout Spacing */
+  --spacing-outer: 24px;
+  --spacing-inner: 18px;
+  --spacing-section: 56px;
+  --spacing-grid: 8px;
+
+  /* Component Styles */
+  --border-radius-card: 8px;
+  --shadow-card: 0 2px 8px rgba(11, 29, 44, 0.12);
+
+  /* Pattern Opacity */
+  --pattern-opacity-min: 0.1;
+  --pattern-opacity-max: 0.25;
+}
+
+/* Dark theme (default for sales/marketing) */
+[data-theme="dark"] {
+  --bg-primary: var(--color-dark-navy);
+  --bg-secondary: var(--color-slate-gray);
+  --text-primary: var(--color-soft-white);
+  --text-accent: var(--color-bright-green);
+  --icon-color: var(--color-teal);
+}
+
+/* Light theme (for training docs) */
+[data-theme="light"] {
+  --bg-primary: var(--color-soft-white);
+  --bg-secondary: #FFFFFF;
+  --text-primary: var(--color-slate-gray);
+  --text-accent: var(--color-teal);
+  --icon-color: var(--color-dark-navy);
+}

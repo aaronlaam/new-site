@@ -1,0 +1,53 @@
+{
+  "brand": {
+    "name": "ConnectSmart",
+    "parent_company": "NetCarrier",
+    "tagline": "Voice AI Workflows & Automations",
+    "description": "ConnectSmart is NetCarrier's AI-powered workflow and automation engine designed to modernize intake, routing, support, and client communication for human services organizations."
+  },
+  "identity": {
+    "logo": {
+      "primary_logo_path": "/assets/images/netcarrier-logo.png",
+      "usage": "Place in bottom-right corner of one-pagers, footers of documentation, and intro slides. Maintain clearspace of 16px minimum on all sides.",
+      "min_size": "90px width"
+    }
+  },
+  "colors": {
+    "primary": {
+      "dark_navy": "#0B1D2C",
+      "bright_green": "#1CE28C"
+    },
+    "secondary": {
+      "teal": "#1FA6A0",
+      "aqua": "#46D6D2",
+      "sky_blue": "#6EC6FF",
+      "digital_green": "#24FFB5",
+      "slate_gray": "#2F3E46",
+      "soft_white": "#F7F9FA"
+    }
+  },
+  "typography": {
+    "headings": {
+      "font": "Inter Light",
+      "fallback": "Arial, Helvetica, sans-serif",
+      "weight": 300,
+      "tracking": "0.5px"
+    },
+    "subheadings": {
+      "font": "Inter Regular",
+      "weight": 400
+    },
+    "body": {
+      "font": "Lato Regular",
+      "fallback": "Arial, Helvetica, sans-serif",
+      "size": "14-16px"
+    }
+  },
+  "layout": {
+    "spacing": {
+      "outer_margins": "24px",
+      "inner_padding": "16-20px",
+      "section_spacing": "40-70px"
+    }
+  }
+}

@@ -1,0 +1,105 @@
+/* ConnectSmart Base Styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Lato:wght@400;700&display=swap');
+@import url('./variables.css');
+
+/* Reset & Base */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-body);
+  font-weight: var(--font-body-weight);
+  font-size: var(--font-body-size);
+  line-height: 1.6;
+  color: var(--text-primary, var(--color-slate-gray));
+  background-color: var(--bg-primary, var(--color-soft-white));
+  margin: 0;
+  padding: 0;
+}
+
+/* Typography */
+h1, h2, h3 {
+  font-family: var(--font-heading);
+  font-weight: var(--font-heading-weight);
+  letter-spacing: var(--font-heading-tracking);
+  color: var(--color-heading);
+  margin: 0 0 1rem;
+}
+
+h4, h5, h6 {
+  font-family: var(--font-subheading);
+  font-weight: var(--font-subheading-weight);
+  color: var(--color-subheading);
+  margin: 0 0 0.75rem;
+}
+
+/* Buttons & CTAs */
+.btn-primary {
+  background-color: var(--color-bright-green);
+  color: var(--color-dark-navy);
+  border: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-family: var(--font-body);
+  font-weight: 700;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}
+
+/* Header Component */
+.header {
+  background-color: var(--color-dark-navy);
+  color: var(--color-soft-white);
+  padding: var(--spacing-inner);
+}
+
+.header-accent {
+  border-bottom: 3px solid var(--color-bright-green);
+}
+
+/* Footer Component */
+.footer {
+  background-color: var(--color-dark-navy);
+  color: var(--color-soft-white);
+  padding: var(--spacing-inner);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  min-width: 90px;
+}
+
+/* Cards */
+.card {
+  background: var(--bg-secondary, #FFFFFF);
+  border-radius: var(--border-radius-card);
+  box-shadow: var(--shadow-card);
+  padding: var(--spacing-inner);
+}
+
+.card-accent {
+  border-left: 4px solid var(--color-teal);
+}
+
+/* Section Dividers */
+.divider-green {
+  height: 4px;
+  background-color: var(--color-bright-green);
+  border: none;
+  margin: var(--spacing-section) 0;
+}
+
+/* Utility Classes */
+.text-green { color: var(--color-bright-green); }
+.text-teal { color: var(--color-teal); }
+.text-navy { color: var(--color-dark-navy); }
+.bg-navy { background-color: var(--color-dark-navy); }
+.bg-slate { background-color: var(--color-slate-gray); }
+.bg-soft-white { background-color: var(--color-soft-white); }
